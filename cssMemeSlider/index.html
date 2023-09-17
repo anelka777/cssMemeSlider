@@ -9,20 +9,32 @@
 <body>
     <div class="container">
         <div class="inside">
-            
-            <div class="slider">
-                <input type="radio" name='button' id='btn1' checked>
-                <input type="radio" name='button' id='btn2'>
-                <input type="radio" name='button' id='btn3'>
-                <input type="radio" name='button' id='btn4'>
+            <div class="slider-buttons">
+                <input type="radio" class="custom-radio" name='button' id='btn1' checked>
+                <label class='label' for='btn1'></label>
+                <input type="radio" class="custom-radio" name='button' id='btn2'>     
+                <label class='label'for='btn2'></label>
+                <input type="radio" class="custom-radio" name='button' id='btn3'>
+                <label class='label'for='btn3'></label>
+                <input type="radio" class="custom-radio" name='button' id='btn4'>
+                <label class='label'for='btn4'></label>
             </div>
             <div class="text-box">
-                <span class="slide1"></span>
-                <span class="slide2"></span>
-                <span class="slide3"></span>
-                <span class="slide4"></span>
-
+                <div class="slider-phrases">
+                    <span class="phrase one">While you need more practice.</span>
+                    <span class="phrase two">When you learn theory from any examples around you.</span>
+                    <span class="phrase three">Me last night before deadline.</span>
+                    <span class="phrase four">When you finally figure out where the bug is.</span>
+                </div>
             </div>
+            <div class="mem-box">
+                <div class="slider-mems">
+                    <img class="image first" src="assets/Intro.jpg" alt="">
+                    <img class="image second" src="assets/slide2.jpg" alt="">
+                    <img class="image third" src="assets/Slide3.jpg" alt="">
+                    <img class="image fourth" src="assets/slide4.jpg" alt="">
+                </div>
+            </div> 
         </div>
     </div>
 </body>
