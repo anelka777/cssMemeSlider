@@ -133,7 +133,7 @@ input:checked + .label {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
     .slider-mems {
         width: 100%; 
         height: auto; 
