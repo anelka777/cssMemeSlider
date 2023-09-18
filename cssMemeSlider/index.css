@@ -22,9 +22,9 @@ background-color:coral;
 .slider-mems {
     display: flex;
     align-self: center;
-    width: 100vh; 
+    width: 100%; 
     height: 50%;
-    overflow: hidden;
+    overflow:visible;
     transition: transform 0.3s linear;
 } 
 
@@ -105,16 +105,16 @@ input:checked + .label {
 
 
 
-.slider-buttons:has(#btn1:checked) ~ .mem-box .slider-mems .first{
+.slider-buttons:has(#btn1:checked) ~ .mem-box .slider-mems {
     transform: translateX(0%);
 }
-.slider-buttons:has(#btn2:checked) ~ .mem-box .slider-mems .second{
+.slider-buttons:has(#btn2:checked) ~ .mem-box .slider-mems {
     transform: translateX(-100%);
 }
-.slider-buttons:has(#btn3:checked) ~ .mem-box .slider-mems .third{
+.slider-buttons:has(#btn3:checked) ~ .mem-box .slider-mems {
     transform: translateX(-200%);
 }
-.slider-buttons:has(#btn4:checked) ~ .mem-box .slider-mems .fourth{
+.slider-buttons:has(#btn4:checked) ~ .mem-box .slider-mems {
     transform: translateX(-300%);
 } 
 
